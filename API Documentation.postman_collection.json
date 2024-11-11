@@ -1,0 +1,301 @@
+{
+	"info": {
+		"_postman_id": "0797ecc3-d723-48d1-9af6-588646cc8a67",
+		"name": "API Documentation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39631584"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "### Request Description\n\nThis endpoint makes an HTTP GET request to fetch the list of companies.\n\n### Request Body\n\nThis request does not require a request body.\n\n### Response Body\n\nThe response is in JSON format and follows the schema below:\n\n``` bash\n{\n    \"draw\": 0,\n    \"recordsTotal\": 9,\n    \"recordsFiltered\": 9,\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name\": \"Infotech\",\n            \"email\": \"infotech@gmail.com\",\n            \"logo\": \"logos/VusSYlvyo6mhrcvWjzchPzsNt7af2OpCfCqCJfYH.jpg\",\n            \"website\": \"http://www.info.com\",\n            \"created_at\": \"2024-11-10T15:30:32.000000Z\",\n            \"action\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/editcompany/1\\\" class=\\\"btn btn-sm btn-primary\\\">Edit</a>\",\n            \"action1\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/delete_company/1\\\" class=\\\"btn btn-sm btn-primary\\\">Delete</a>\",\n            \"image\": \"<img class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; src=\\\"http://localhost/EmployeeProjectTest/public/storage/logos/VusSYlvyo6mhrcvWjzchPzsNt7af2OpCfCqCJfYH.jpg\\\" alt=\\\"logo\\\" width=\\\"50\\\" height=\\\"50\\\">\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"futura\",\n            \"email\": \"futura@gmail.com\",\n            \"logo\": \"logos/uO5aRmKsxxWVxDjLOmH3ILYZpiQaM2T8Vws5iRY2.jpg\",\n            \"website\": \"http://www.futura.com\",\n            \"created_at\": \"2024-11-10T15:31:44.000000Z\",\n            \"action\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/editcompany/2\\\" class=\\\"btn btn-sm btn-primary\\\">Edit</a>\",\n            \"action1\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/delete_company/2\\\" class=\\\"btn btn-sm btn-primary\\\">Delete</a>\",\n            \"image\": \"<img class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; src=\\\"http://localhost/EmployeeProjectTest/public/storage/logos/uO5aRmKsxxWVxDjLOmH3ILYZpiQaM2T8Vws5iRY2.jpg\\\" alt=\\\"logo\\\" width=\\\"50\\\" height=\\\"50\\\">\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"tech\",\n            \"email\": \"tech@gmail.com\",\n            \"logo\": \"logos/xPTypX29Z1n6f4XyLobLnbu6f9kfV15sS0adPYfg.jpg\",\n            \"website\": \"http://www.tech.com\",\n            \"created_at\": \"2024-11-10T15:33:52.000000Z\",\n            \"action\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/editcompany/3\\\" class=\\\"btn btn-sm btn-primary\\\">Edit</a>\",\n            \"action1\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/delete_company/3\\\" class=\\\"btn btn-sm btn-primary\\\">Delete</a>\",\n            \"image\": \"<img class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; src=\\\"http://localhost/EmployeeProjectTest/public/storage/logos/xPTypX29Z1n6f4XyLobLnbu6f9kfV15sS0adPYfg.jpg\\\" alt=\\\"logo\\\" width=\\\"50\\\" height=\\\"50\\\">\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"insoft\",\n            \"email\": \"insoft@gmail.com\",\n            \"logo\": \"logos/92Ut3Q27ueLvvR2evlAio6EDxYrTBlcOZ6zB8KTa.jpg\",\n            \"website\": \"http://www.insoft.com\",\n            \"created_at\": \"2024-11-10T15:34:29.000000Z\",\n            \"action\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/editcompany/4\\\" class=\\\"btn btn-sm btn-primary\\\">Edit</a>\",\n            \"action1\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/delete_company/4\\\" class=\\\"btn btn-sm btn-primary\\\">Delete</a>\",\n            \"image\": \"<img class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; src=\\\"http://localhost/EmployeeProjectTest/public/storage/logos/92Ut3Q27ueLvvR2evlAio6EDxYrTBlcOZ6zB8KTa.jpg\\\" alt=\\\"logo\\\" width=\\\"50\\\" height=\\\"50\\\">\"\n        },\n        {\n            \"id\": 5,\n            \"name\": \"techinfo\",\n            \"email\": \"techinfo@gmail.com\",\n            \"logo\": \"logos/xBbOfYHKM0BcCQBLyEJzn3KEghGEOL9J8S5jbi5C.jpg\",\n            \"website\": \"http://www.techinfo.com\",\n            \"created_at\": \"2024-11-10T15:35:36.000000Z\",\n            \"action\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/editcompany/5\\\" class=\\\"btn btn-sm btn-primary\\\">Edit</a>\",\n            \"action1\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/delete_company/5\\\" class=\\\"btn btn-sm btn-primary\\\">Delete</a>\",\n            \"image\": \"<img class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; src=\\\"http://localhost/EmployeeProjectTest/public/storage/logos/xBbOfYHKM0BcCQBLyEJzn3KEghGEOL9J8S5jbi5C.jpg\\\" alt=\\\"logo\\\" width=\\\"50\\\" height=\\\"50\\\">\"\n        },\n        {\n            \"id\": 6,\n            \"name\": \"computercare\",\n            \"email\": \"computercare@gmail.com\",\n            \"logo\": \"logos/4Ww4SLuU49trXzSp4I2CRxUIVH63scdcDkEdskld.png\",\n            \"website\": \"http://www.computercare.com\",\n            \"created_at\": \"2024-11-10T15:36:41.000000Z\",\n            \"action\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/editcompany/6\\\" class=\\\"btn btn-sm btn-primary\\\">Edit</a>\",\n            \"action1\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/delete_company/6\\\" class=\\\"btn btn-sm btn-primary\\\">Delete</a>\",\n            \"image\": \"<img class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; src=\\\"http://localhost/EmployeeProjectTest/public/storage/logos/4Ww4SLuU49trXzSp4I2CRxUIVH63scdcDkEdskld.png\\\" alt=\\\"logo\\\" width=\\\"50\\\" height=\\\"50\\\">\"\n        },\n        {\n            \"id\": 7,\n            \"name\": \"soft\",\n            \"email\": \"soft@gmail.com\",\n            \"logo\": \"logos/dIuGzSHmlpmRPU8quYh1tcd96k1LlntXcsU49JhP.jpg\",\n            \"website\": \"http://soft.test.com\",\n            \"created_at\": \"2024-11-10T15:38:13.000000Z\",\n            \"action\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/editcompany/7\\\" class=\\\"btn btn-sm btn-primary\\\">Edit</a>\",\n            \"action1\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/delete_company/7\\\" class=\\\"btn btn-sm btn-primary\\\">Delete</a>\",\n            \"image\": \"<img class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; src=\\\"http://localhost/EmployeeProjectTest/public/storage/logos/dIuGzSHmlpmRPU8quYh1tcd96k1LlntXcsU49JhP.jpg\\\" alt=\\\"logo\\\" width=\\\"50\\\" height=\\\"50\\\">\"\n        },\n        {\n            \"id\": 8,\n            \"name\": \"techworld\",\n            \"email\": \"techworld@gmail.com\",\n            \"logo\": \"logos/6y8vPmixKU9SPqMHwFt5Wi7LtbEphZ4W4DboFVDl.jpg\",\n            \"website\": \"http://www.techworld.com\",\n            \"created_at\": \"2024-11-10T15:39:21.000000Z\",\n            \"action\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/editcompany/8\\\" class=\\\"btn btn-sm btn-primary\\\">Edit</a>\",\n            \"action1\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/delete_company/8\\\" class=\\\"btn btn-sm btn-primary\\\">Delete</a>\",\n            \"image\": \"<img class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; src=\\\"http://localhost/EmployeeProjectTest/public/storage/logos/6y8vPmixKU9SPqMHwFt5Wi7LtbEphZ4W4DboFVDl.jpg\\\" alt=\\\"logo\\\" width=\\\"50\\\" height=\\\"50\\\">\"\n        },\n        {\n            \"id\": 9,\n            \"name\": \"techcare\",\n            \"email\": \"techcare@gmail.com\",\n            \"logo\": \"logos/haYdFYLwLnEurDrdq42gi6TrKxqtB0KobzDKxxZq.png\",\n            \"website\": \"http://www.techcare.com\",\n            \"created_at\": \"2024-11-10T15:39:59.000000Z\",\n            \"action\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/editcompany/9\\\" class=\\\"btn btn-sm btn-primary\\\">Edit</a>\",\n            \"action1\": \"<a class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; href=\\\"http://localhost/EmployeeProjectTest/public/delete_company/9\\\" class=\\\"btn btn-sm btn-primary\\\">Delete</a>\",\n            \"image\": \"<img class=&#x27;preserveHtml&#x27; class=&#x27;preserveHtml&#x27; src=\\\"http://localhost/EmployeeProjectTest/public/storage/logos/haYdFYLwLnEurDrdq42gi6TrKxqtB0KobzDKxxZq.png\\\" alt=\\\"logo\\\" width=\\\"50\\\" height=\\\"50\\\">\"\n        }\n    ],\n    \"disableOrdering\": false,\n    \"queries\": [\n        {\n            \"query\": \"select count(*) as aggregate from `company`\",\n            \"bindings\": [],\n            \"time\": 14.7\n        },\n        {\n            \"query\": \"select `id`, `name`, `email`, `logo`, `website`, `created_at` from `company`\",\n            \"bindings\": [],\n            \"time\": 0.56\n        }\n    ],\n    \"input\": []\n}\n\n ```\n\nThe response contains information about the companies including their IDs, names, emails, logos, websites, and creation dates. The \"disableOrdering\" field indicates whether ordering is disabled. The \"queries\" field includes the query, bindings, and time information. The \"input\" field is an array.\n\n### Response Status\n\n- Status: 200\n- Content-Type: application/json"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/EmployeeProjectTest/public/api/companylist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "testcompany",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "testcompany@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "logo",
+							"type": "file",
+							"src": "/C:/Users/hp/Downloads/logo5.jpg"
+						},
+						{
+							"key": "website",
+							"value": "http://www.testcompany.in",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/EmployeeProjectTest/public/api/companylist",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"EmployeeProjectTest",
+						"public",
+						"api",
+						"companylist"
+					]
+				},
+				"description": "### Add Company\n\nThis endpoint is used to add a new company to the system. The request should be sent as a POST to `localhost/EmployeeProjectTest/public/api/companylist`.\n\n#### Request Body\n\nThe request should include the following form-data parameters:\n\n- `name` (text): The name of the company.\n- `email` (text): The email address of the company.\n- `logo` (file): The logo of the company (minimum 100x100).\n- `website` (text): The website URL of the company.\n    \n\n#### Response\n\nThe response returned a status code of 200 and a content type of `text/html`. The response contains HTML content with a form for creating companies, including fields for company name, email, logo, and website."
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/EmployeeProjectTest/public/api/companylist Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "testcompany",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "testcompany@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "logo",
+							"type": "file",
+							"src": "/C:/Users/hp/Downloads/logo5.jpg"
+						},
+						{
+							"key": "website",
+							"value": "http://www.testcompany.in",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/EmployeeProjectTest/public/api/companylist",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"EmployeeProjectTest",
+						"public",
+						"api",
+						"companylist"
+					]
+				},
+				"description": "### Add Company\n\nThis endpoint is used to add a new company to the system. The request should be sent as a POST to `localhost/EmployeeProjectTest/public/api/companylist`.\n\n#### Request Body\n\nThe request should include the following form-data parameters:\n\n- `name` (text): The name of the company.\n- `email` (text): The email address of the company.\n- `logo` (file): The logo of the company (minimum 100x100).\n- `website` (text): The website URL of the company.\n    \n\n#### Response\n\nThe response returned a status code of 200 and a content type of `text/html`. The response contains HTML content with a form for creating companies, including fields for company name, email, logo, and website."
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/EmployeeProjectTest/public/api/companylist",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"warning": "This is a duplicate header and will be overridden by the Content-Type header generated by Postman.",
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "testcompany",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "testcompany@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "logo",
+							"type": "file",
+							"src": "/C:/Users/hp/Downloads/logo5.jpg"
+						},
+						{
+							"key": "website",
+							"value": "http://www.testcompany.in",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/EmployeeProjectTest/public/api/companylist/2",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"EmployeeProjectTest",
+						"public",
+						"api",
+						"companylist",
+						"2"
+					]
+				},
+				"description": "### GET /EmployeeProjectTest/public/api/companylist/2\n\nThis endpoint retrieves company details for the company with ID 2.\n\n#### Request Body\n\n- name (text): The name of the company.\n- email (text): The email address of the company.\n- logo (file): The logo of the company.\n- website (text): The website URL of the company.\n    \n\n#### Response\n\nThe response is a JSON object with the following schema:\n\n``` json\n{\n  \"id\": 0,\n  \"name\": \"\",\n  \"email\": \"\",\n  \"logo\": \"\",\n  \"website\": \"\",\n  \"created_at\": \"\",\n  \"updated_at\": \"\"\n}\n\n ```\n\n- id (number): The unique identifier of the company.\n- name (string): The name of the company.\n- email (string): The email address of the company.\n- logo (string): The URL or path to the company's logo.\n- website (string): The website URL of the company.\n- created_at (string): The timestamp of when the company was created.\n- updated_at (string): The timestamp of when the company was last updated."
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/EmployeeProjectTest/public/api/companylist Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"warning": "This is a duplicate header and will be overridden by the Content-Type header generated by Postman.",
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "localhost/EmployeeProjectTest/public/api/companylist/10",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"EmployeeProjectTest",
+						"public",
+						"api",
+						"companylist",
+						"10"
+					]
+				},
+				"description": "### GET /EmployeeProjectTest/public/api/companylist/2\n\nThis endpoint retrieves company details for the company with ID 2.\n\n#### Request Body\n\n- name (text): The name of the company.\n- email (text): The email address of the company.\n- logo (file): The logo of the company.\n- website (text): The website URL of the company.\n    \n\n#### Response\n\nThe response is a JSON object with the following schema:\n\n``` json\n{\n  \"id\": 0,\n  \"name\": \"\",\n  \"email\": \"\",\n  \"logo\": \"\",\n  \"website\": \"\",\n  \"created_at\": \"\",\n  \"updated_at\": \"\"\n}\n\n ```\n\n- id (number): The unique identifier of the company.\n- name (string): The name of the company.\n- email (string): The email address of the company.\n- logo (string): The URL or path to the company's logo.\n- website (string): The website URL of the company.\n- created_at (string): The timestamp of when the company was created.\n- updated_at (string): The timestamp of when the company was last updated."
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/EmployeeProjectTest/public/api/companylist Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "newcompany",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "newcompany@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "logo",
+							"type": "file",
+							"src": "/C:/Users/hp/Downloads/logo5.jpg"
+						},
+						{
+							"key": "website",
+							"value": "http://www.newcompany.in",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/EmployeeProjectTest/public/api/companylist/11",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"EmployeeProjectTest",
+						"public",
+						"api",
+						"companylist",
+						"11"
+					]
+				},
+				"description": "### POST /EmployeeProjectTest/public/api/companylist/11\n\nThis endpoint is used to create a new company in the system with the provided details.\n\n#### Request Body\n\n- `name` (text): The name of the company.\n- `email` (text): The email address of the company.\n- `logo` (file): The logo of the company.\n- `website` (text): The website URL of the company.\n    \n\n#### Response\n\nThe response for this request is a JSON object with the following schema:\n\n``` json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    // Define the properties of the response object here\n  }\n}\n\n ```"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/EmployeeProjectTest/public/api/companylist Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"warning": "This is a duplicate header and will be overridden by the Content-Type header generated by Postman.",
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "localhost/EmployeeProjectTest/public/api/companylist/10",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"EmployeeProjectTest",
+						"public",
+						"api",
+						"companylist",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/EmployeeProjectTest/public/api/employeelist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/EmployeeProjectTest/public/api/employeelist",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"EmployeeProjectTest",
+						"public",
+						"api",
+						"employeelist"
+					]
+				},
+				"description": "# Employee List API\n\nThis API endpoint sends an HTTP GET request to retrieve a list of employees.\n\n### Request\n\nNo request body parameters are required for this request.\n\n### Response\n\n- **Status**: 200\n- **Content-Type**: application/json\n    \n\n#### Response Body\n\nThe response contains a JSON object with the following keys:\n\n- `draw` (number) - The draw counter for DataTables.\n- `recordsTotal` (number) - Total number of records in the dataset.\n- `recordsFiltered` (number) - Total number of records after filtering.\n- `data` (array) - An array of employee objects with the following keys:\n    - `id` (number) - The unique identifier of the employee.\n    - `first_name` (string) - The first name of the employee.\n    - `last_name` (string) - The last name of the employee.\n    - `company_id` (number) - The unique identifier of the company the employee belongs to.\n    - `email` (string) - The email address of the employee.\n    - `phone` (string) - The phone number of the employee.\n    - `created_at` (string) - The date and time when the employee record was created.\n    - `updated_at` (string) - The date and time when the employee record was last updated.\n    - `cname` (string) - Company name.\n    - `action` (string) - Action 1.\n    - `action2` (string) - Action 2.\n- `input` (array) - An array of input data."
+			},
+			"response": []
+		}
+	]
+}
